@@ -1,3 +1,9 @@
+## ABOUT THIS PROJECT
+
+I created this project to study some new functionality of [Next.js 13](https://nextjs.org/).
+For this case study I used only 3 provider, two of them already out of the box from Next-Auth, Google and Github.
+I have to admit that is simplier than pure ReactJS, most of the stuff is "ready to use".
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
