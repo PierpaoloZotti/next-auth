@@ -16,7 +16,7 @@ const Header = () => {
          {!session ? (
             <div>
                <button
-                  className="bg-sky-500 hover:bg-sky-700 text-sm text-white font-bold w-40 py-2 rounded-xl"
+                  className="bg-black text-sm text-white font-bold w-40 py-2 rounded-xl hover:bg-transparent hover:border-solid border-2 hover:border-black hover:text-black"
                   onClick={() => router.push("/login")}
                >
                   Sign in
@@ -32,12 +32,6 @@ const Header = () => {
                </button>
             </div>
          )}
-         {/* <button
-            className="bg-gray-800 w-40 text-white font-bold rounded-xl py-2 text-sm hover:shadow-md hover:bg-black"
-            onClick={() => signOut({ callbackUrl: "http://localhost:3000/login" })}
-         >
-            Log out
-         </button> */}
       </section>
    );
 };
